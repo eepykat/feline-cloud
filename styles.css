@@ -8,26 +8,34 @@
 html, body {
     width: 100%;
 	height: 100%;
-	font-family: 'Wellfleet', monospace;
-	font-size: 1.2em;
-	background-color: rgb(119, 87, 134);
+
+	/* Font for everything */
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1em;
 	color: #FFFF;
+
+	background-color: rgb(19, 7, 30);
     overflow-x: hidden;
+
 }
 
 header {
-	padding-top:60px;
-	padding-bottom: 25px;
+	padding-top:30px;
 }
 
-main {
+#panel-nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     width: 100%;
     max-width: 960px;
     height: 60vh;
+	
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,8 +51,9 @@ main {
 
 #panel-nav ul li {
 	display: inline-block;
-	font-size: 1.3em;
+	font-size: 2em;
 }
+
 #panel-nav ul li a {
 	margin-left: 25px;
 	margin-right: 25px
@@ -60,7 +69,7 @@ a:hover, a:active {
 
 footer {
 	padding:20px;
-	margine:20px;
+	margin:20px;
 	text-align: center;
 }
 .feline-font {
@@ -76,7 +85,9 @@ footer {
 .feline-font li {
 	font-size: 3em;
 }
-
+.center {
+	text-align: center;
+}
 /* -------------------------------------------------
  *
  *
