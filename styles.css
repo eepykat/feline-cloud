@@ -32,21 +32,23 @@ main {
     margin-right: auto;
 }
 
-#panel-nav {
-	padding-top:40px;
-	padding-bottom:80px;
-
+#panel-nav h1 {
+	font-variant: small-caps;
 }
 
 #panel-nav ul  {
 	list-style-type: none;
+	padding-top: 30px;
 }
 
 #panel-nav ul li {
 	display: inline-block;
-	font-size: 1.6em;
+	font-size: 1.3em;
 }
-
+#panel-nav ul li a {
+	margin-left: 25px;
+	margin-right: 25px
+}
 a:link, a:visited {
 	color:#ffffff;
 	text-decoration: none;
@@ -61,19 +63,18 @@ footer {
 	margine:20px;
 	text-align: center;
 }
-
 .feline-font {
-	font-family: "Titan One", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 3em;
-}
-
-.feline-other-font {
 	font-family: "Outfit", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 500;
 	font-style: normal;
+}
+.feline-font h1 {
+	font-size: 3em;
+}
+
+.feline-font li {
+	font-size: 3em;
 }
 
 /* -------------------------------------------------
@@ -85,6 +86,8 @@ footer {
  - --------------------------------------------------*/
 #navbar {
     color: #FFFFFF;
+	padding-right: 15px;
+	padding-left: 15px;
 	margin-left: auto;
     margin-right: auto;
 	max-width: 1200px;
