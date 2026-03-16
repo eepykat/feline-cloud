@@ -90,16 +90,26 @@ footer {
 	font-optical-sizing: auto;
 	font-weight: 500;
 	font-style: normal;
+	transform: translateY(-50vh);
+	animation: transform2 1.5s 1.3s ease forwards;
+}
+@keyframes transform2 {
+	from {
+		transform: translateY(-50vh);
+	}
+	to {
+		transform: translateY(0);
+	}
 }
 .feline-font2 {
 	font-family: "Outfit", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 500;
 	font-style: normal;
-	animation: transform2 0.6s 1.3s ease forwards;
 	opacity: 0;
+	animation: transform3 1.5s 1.3s ease forwards;
 }
-@keyframes transform2 {
+@keyframes transform3 {
 	from {
 		opacity: 0;
 	}
@@ -164,6 +174,16 @@ footer {
 	display: flex;
 	align-items: center;
 	min-width: 300px;
+	transform: translateY(-50vh);
+	animation: transform4 1.5s 1.3s ease forwards;
+}
+@keyframes transform4 {
+	from {
+		transform: translateY(-50vh);
+	}
+	to {
+		transform: translateY(0);
+	}
 }
 
 #navbar ul  {
@@ -185,6 +205,7 @@ a:link, a:visited {
 a:hover, a:active {
     color: #F2CA80;
     text-decoration: none;
+	transform: scale(1.1);
 }
 
 li.active a {
