@@ -204,9 +204,18 @@ a:link, a:visited {
 }
 a:hover, a:active {
     color: #F2CA80;
-    text-decoration: none;
-	transform: scale(1.1);
+	text-decoration: none;
+	animation: transform5 0.5s ease forwards;
 }
+@keyframes transform5 {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
 
 li.active a {
     color: #F2CA80;
