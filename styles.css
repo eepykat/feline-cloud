@@ -202,7 +202,9 @@ a:link, a:visited {
     color:#DDD9D9;
     text-decoration: none;
 }
-a:hover, a:active {
+
+a:hover {
+	display: inline-block;
     color: #F2CA80;
 	text-decoration: none;
 	animation: transform5 0.5s ease forwards;
@@ -216,8 +218,7 @@ a:hover, a:active {
 	}
 }
 
-
-li.active a {
+#navbar li.active a {
     color: #F2CA80;
 }
 #navbar h1 {
